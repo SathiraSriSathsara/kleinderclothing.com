@@ -30,7 +30,7 @@ This website was developed by Damidu Sandipa and Sathira Sri Sathsara for our va
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/SathiraSriSathsara/kleinderclothing.com.git
    ```
 
 2. Open the project in your code editor.
