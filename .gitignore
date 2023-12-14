@@ -1,0 +1,48 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build and compiled files
+dist/
+build/
+*.min.js
+*.min.css
+
+# Ignore dependencies and environment files
+package-lock.json
+yarn.lock
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.tmp.*
+*.swp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+*.sublime-*
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore cache and compiled files
+.cache/
+
+
+
+# Ignore archives and backups
+*.zip
+*.gz
+*.tar
+*.rar
+*.bak
+*.backup
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

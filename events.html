@@ -1,0 +1,275 @@
+<!-- /////////////////////////////////////////////////////////////////
+//                                                                  //
+//                                                                  //
+//     Website Developed By Sam(Sathira) & Damiya(Damidu Sandipa)   //
+//     Contact Us | Discord_User Name: damiya , samtm_              //
+//                                                                  //
+//                                                                  //
+////////////////////////////////////////////////////////////////////// -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="Kleinder Clothing">
+    <meta property="og:image"
+        content="https://cdn.discordapp.com/attachments/897836638212870214/1134050229704986694/about-card.jpg">
+    <meta property="og:description"
+        content="Your Fashion Destination in Panadura, Sri Lanka. Trendy, high-quality clothing for all ages. Shop now and express your style with confidence!">
+    <meta property="og:url" content="https://kleindercloathing.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Kleinder Clothing| Sri Lankan Clothing and Lifestlye Brand</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fav Icon-->
+    <link rel="icon" type="image/x-icon" href="assets/icon/fav.ico">
+    <!--Custom CSS Added By SaM-->
+    <link rel="stylesheet" href="assets/css/home.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.3/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+
+<style>
+    .link-underline {
+        border-bottom-width: 0;
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#f44336, #f44336);
+        background-size: 0 2px;
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size .5s ease-in-out;
+    }
+
+    .link-underline-black {
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#f44336, #f44336)
+    }
+
+    .link-underline:hover {
+        background-size: 100% 2px;
+        background-position: 0 100%
+    }
+</style>
+
+
+<body class="overflow-auto scrollbar-hide bg-[#F7F6F1]" style="font-family: 'Nunito Sans', sans-serif;">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-[rgb(17,17,17)] flex flex-row items-center gap-2 justify-center w-full">
+        <p id="changingText" class="py-3 text-sm text-white">
+        </p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="bg-[#F7F6F1] mt-3 ">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto max-w-7xl">
+            <div class="flex">
+                <a href="./index.html" class="flex">
+                    <img class="h-6" src="./assets/Logo/white-logo.png" alt="kleinder logo">
+                    <p class="items-center text-2xl font-bold text-black">leinder<span class="text-red-500">.</span></p>
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-[#F7F6F1] md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="font-md text-normal link link-underline link-underline-black text-black/70 hover:text-black"
+                            href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="border-b-2 border-[#f44336] font-md text-normal text-black"
+                            href="./events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="font-md text-normal link link-underline link-underline-black text-black/70 hover:text-black"
+                            href="https://shop.kleinderclothing.com/">Shop</a>
+                    </li>
+                    <li>
+                        <a class="font-md text-normal link link-underline link-underline-black text-black/70 hover:text-black"
+                            href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- login button and cart button -->
+            <div class="flex items-center gap-6">
+                <a href="https://shop.kleinderclothing.com/?post_type=product">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.7"
+                        stroke="currentColor" class="w-6 h-6 md:w-7 md:h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg></a>
+                <div>
+                    <a href="https://shop.kleinderclothing.com/?page_id=1177"><button
+                        class="bg-[rgb(17,17,17)] hover:bg-gradient-to-br from-[rgb(17,17,17)]  to-[rgb(90,90,90)] rounded-md text-white py-[6px] px-5 md:py-2 md:px-6  font-normal text-sm md:text-md md:tracking-wide hover:duration-500"
+                                                                                      >Login</button></a>
+                </div>
+                <!-- toggle button -->
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+
+
+    <!-- cover video -->
+    <section class="flex justify-center mx-auto mt-32 ml-10 mr-10">
+        <div class="ft-back">
+            <div
+                class=" rounded-lg bg-cover bg-center bg-[url('./assets/back.jpg')] sm:h-[500px] h-[450px] lg:w-[1000px] md:w-[800px] sm:w-[500px] xl:w-[1200px] ">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- latest events image section -->
+    <section class="flex justify-center mx-10 my-32">
+        <div class="max-w-7xl">
+            <div class="">
+                <p class="text-3xl font-bold text-left text-black capitalize">Aminte presents holly party with Kleinder Clothings</p>
+            </div>
+            <div
+                class="grid justify-center grid-cols-1 pt-10 mx-auto mt-4 mb-5 w-fit lg:grid-cols-3 md:grid-cols-2 justify-items-center lg:gap-y-30 gap-y-20 gap-x-14">
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140721208707522660/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140715780644810814/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140716448549961898/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140716923118690365/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140717932373094440/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140717692140134400/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140718180348723290/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140718470259015791/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+                <div>
+                    <img src="https://cdn.discordapp.com/attachments/907665137144578078/1140721722660757534/ev-02.jpg" alt="Product" class="object-cover h-96 w-80 rounded-xl" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="bg-[#111111] w-full mt-32">
+        <div class="flex flex-col justify-center pt-10 mx-auto max-w-7xl">
+            <div class="grid gap-10 grid-row-4 ml-28 mr-28 md:grid-cols-3 md:grid">
+                <!--flex 1 start -->
+                <div class="flex flex-col gap-6">
+                    <!-- Footer Logo -->
+                    <div class="flex">
+                        <img class="h-6" src="./assets/white_logo_recover_1.png" alt="">
+                        <p class="items-center text-2xl font-bold text-white">Kleinder<span
+                                class="text-red-500">.</span></p>
+                    </div>
+                    <!-- Text -->
+                    <div class="">
+                        <p class="text-sm font-normal text-gray-100/50">Kleinder: Embrace cozy, sustainable fashion<br> in Panadura. Redefining comfort Voluptates, <br>with stylish clothing.</p>
+                    </div>
+                    <!-- Payment Logos -->
+                    <div class="flex gap-4 cursor-pointer">
+                        <a href="https://web.facebook.com/kleinderclothing" target="_blank"><i class="text-white text-xl duration-300 fa-brands fa-facebook hover:text-[#3b5998]"></i></a>
+                        <a href="https://www.instagram.com/kleinderclothing/" target="_blank"><i class="text-xl text-white duration-300 fa-brands fa-instagram hover:bg-gradient-to-br hover:to-[#fccc63] hover:from-[#516cf1] hover:via-[#b561ee] hover:bg-clip-text hover:text-transparent"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=%2B94702009226&data=ARCTnq505oLaht_MHOPIIMmryu_wmTlJw2ZbH0-fskdvAoIbI2Sg42zudX_U7rsd9nOXK6XOZjJX21V4Calzd-sUg61f4GPN2mTinis3Z5E2l9YrrxjvJKevwp75hvXeTsJU74u0FuPSOdtCYHEq_vCkhg&source=FB_Page&app=facebook&entry_point=page_cta"><i class="text-xl text-white duration-300 fa-brands fa-whatsapp hover:text-green-500"></i></a>
+                        <a href="https://www.tiktok.com/@kleinderclothing?is_from_webapp=1&sender_device=pc" target="_blank"><i class="text-[18px] text-white duration-300 fa-brands fa-tiktok hover:bg-gradient-to-br hover:to-[#00f2ea] hover:from-[#ff0050] hover:via-[#414141] hover:bg-clip-text hover:text-transparent"></i></a>
+                    </div>
+                </div>
+                <!--flex 2 start -->
+                <div class="flex flex-col gap-4">
+                    <div>
+                        <p class="text-lg font-semibold text-white">Quick Links</p>
+                    </div>
+                    <div class="flex flex-col gap-2 ">
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/">New Collection</a>
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/?product_cat=t-shirts">T-shirts</a>
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/?page_id=1177">My Account</a>
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/?post_type=product">Orders</a>
+                    </div>
+                </div>
+                <!-- flex 4 start -->
+                <div class="pt-6">
+                    <div>
+                        <p class="text-2xl font-bold capitalize text-white/50">Elevate your style. Join<br> the fashion<span
+                                class="text-red-500"> revolution</span></p>
+                    </div>
+                    <div class="items-center pt-6">
+                        <a href="./contact.html"
+                            class="p-2 text-sm font-medium capitalize border rounded-full border-white/60 text-white/50 hover:bg-white/5 hover:duration-500">Contact
+                            Us <i class="pl-1 text-xs text-white/50 fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright text -->
+            <div class="flex justify-center pt-10">
+                <div class=" border-t-[1px] border-slate-100/20 w-2/3">
+                    <p class="pt-4 pb-4 text-sm font-normal text-center text-white/60">Copyright © Kleinder clothing.
+                        Developed by Enforcers Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e) {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[16%]')
+        }
+
+        // Top Annoucemnet Start
+
+        const texts = [
+            "Free Island wide delivery in 5-7 business days.",
+            "All prices mentioned are in Sri Lankan Ruppees",
+            "Register for more promotions.",
+            "Refer a Friend Discount"
+        ];
+
+        let currentIndex = 0;
+        const changingTextElement = document.getElementById("changingText");
+
+        function changeText() {
+            changingTextElement.textContent = texts[currentIndex];
+            currentIndex = (currentIndex + 1) % texts.length;
+        }
+
+        // Initial text change
+        changeText();
+
+        // Set interval to change text every 20 seconds (20000 milliseconds)
+        setInterval(changeText, 5000);
+
+
+    // Top Annoucemnet Stop
+    </script>
+    <!--Custom Javascript Added By SaM-->
+    <script src="./js/home.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>

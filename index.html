@@ -1,0 +1,523 @@
+<!-- /////////////////////////////////////////////////////////////////
+//                                                                  //
+//                                                                  //
+//     Website Developed By Sam(Sathira) & Damiya(Damidu Sandipa)   //
+//     Contact Us | Discord_User Name: damiya , samtm_              //
+//                                                                  //
+//                                                                  //
+////////////////////////////////////////////////////////////////////// -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Your Fashion Destination in Panadura, Sri Lanka. Trendy, high-quality clothing for all ages. Shop now and express your style with confidence!">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://kleinderclothing.com/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kleinder Clothing">
+    <meta property="og:description" content="Your Fashion Destination in Panadura, Sri Lanka. Trendy, high-quality clothing for all ages. Shop now and express your style with confidence!">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/897836638212870214/1134050229704986694/about-card.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="https://kleinderclothing.com">
+    <meta property="twitter:url" content="https://kleinderclothing.com/index.html">
+    <meta name="twitter:title" content="Kleinder Clothing">
+    <meta name="twitter:description" content="Your Fashion Destination in Panadura, Sri Lanka. Trendy, high-quality clothing for all ages. Shop now and express your style with confidence!">
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/897836638212870214/1134050229704986694/about-card.jpg">
+    <title>Kleinder Clothing| Sri Lankan Clothing and Lifestlye Brand</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fav Icon-->
+    <link rel="icon" type="image/x-icon" href="assets/icon/fav.ico">
+    <!--Custom CSS Added By SaM-->
+    <link rel="stylesheet" href="assets/css/home.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.3/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+</head>
+<style>
+    .link-underline {
+        border-bottom-width: 0;
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#f44336, #f44336);
+        background-size: 0 2px;
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size .5s ease-in-out;
+    }
+
+    .link-underline-black {
+        background-image: linear-gradient(transparent, transparent), linear-gradient(#f44336, #f44336)
+    }
+
+    .link-underline:hover {
+        background-size: 100% 2px;
+        background-position: 0 100%
+    }
+</style>
+
+
+<body class=" bg-[#F7F6F1]" style="font-family: 'Nunito Sans', sans-serif;">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-[rgb(17,17,17)] flex flex-row items-center gap-2 justify-center w-full">
+        <p id="changingText" class="py-3 text-sm text-white">
+        </p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="bg-[#F7F6F1] mt-3 ">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto max-w-7xl">
+            <div class="flex">
+                <a href="./index.html" class="flex">
+                    <img class="h-6" src="./assets/Logo/white-logo.png" alt="kleinder logo">
+                    <p class="items-center text-2xl font-bold text-black">leinder<span class="text-red-500">.</span></p>
+                </a>
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-[#F7F6F1] md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a class="border-b-2 border-[#f44336] font-md text-normal text-black"
+                            href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="font-md text-normal link link-underline link-underline-black text-black/70 hover:text-black"
+                            href="./events.html">Events</a>
+                    </li>
+                    <li>
+                        <a class="font-md text-normal link link-underline link-underline-black text-black/70 hover:text-black"
+                           href="https://shop.kleinderclothing.com/">Shop</a>
+                    </li>
+                    <li>
+                        <a class="font-md text-normal link link-underline link-underline-black text-black/70 hover:text-black"
+                            href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- login button and cart button -->
+            <div class="flex items-center gap-6">
+                <a  href="https://shop.kleinderclothing.com/?post_type=product">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.7"
+                        stroke="currentColor" class="w-6 h-6 md:w-7 md:h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg></a>
+                <div>
+                    <a  href="https://shop.kleinderclothing.com/?page_id=1177">                    <button
+                        class="bg-[rgb(17,17,17)] hover:bg-gradient-to-br from-[rgb(17,17,17)]  to-[rgb(90,90,90)] rounded-md text-white py-[6px] px-5 md:py-2 md:px-6  font-normal text-sm md:text-md md:tracking-wide hover:duration-500"
+                        >Login</button></a>
+                </div>
+                <!-- toggle button -->
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+            </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="flex justify-center ml-10 mr-10 ">
+        <div class="flex flex-row items-center  md:justify-between max-w-7xl pt-[50px] md:gap-10 sm:gap-20">
+            <div class="flex flex-col text-center md:text-left md:w-[600px] gap-3 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="300">
+                <div class="">
+                    <h6 class="text-[#f44336] uppercase text-xs lg:text-sm font-semibold ">Elevate Your <span
+                            class="px-1 text-white bg-red-500">Fashion Game</span> </h6>
+                </div>
+                <div class="pb-3">
+                    <h2 class="text-black font-[900] text-3xl md:text-6xl ">Welcome to the <br> Kleinder Clothing.</h2>
+                </div>
+                <div class="pb-10">
+                    <p class="text-xs font-semibold lg:text-md text-black/80 ">Where Timeless Elegance Meets Effortless
+                        Chic. Discover our curated collection of sophisticated and contemporary apparel, blending
+                        luxurious fabrics with refined design for enduring fashion</p>
+                </div>
+                <div class="pt-4 transition duration-500 hover:-translate-y-1">
+                    <a href="https://shop.kleinderclothing.com/"
+                        class="bg-[rgb(17,17,17)] hover:bg-gradient-to-br from-[rgb(17,17,17)] shadow-md   to-[rgb(41,41,41)] rounded-md hover:duration-500 lg:text-lg text-sm text-white font-normal lg:py-3 lg:px-8 py-2 px-3">Shop
+                        now <i class="pl-2 text-sm text-white fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <section>
+                <!-- Add a wrapper div for the image -->
+                <div class="image-wrapper delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="400">
+                    <!-- Update the image element with an ID to change the source -->
+                    <img id="changingImage" class="hidden md:block h-[580px]" alt="">
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="flex justify-center mx-10 my-32">
+        <div class="flex flex-col gap-10 max-w-7xl">
+            <div class="flex items-center justify-between gap-10 pb-6 md:gap-0">
+                <div>
+                    <h1 class="text-2xl font-bold text-black md:text-3xl lg:text-4xl">New Collection</h1>
+                </div>
+                <div>
+                    <a href="https://shop.kleinderclothing.com/" 
+                        class="px-1 py-1 text-xs font-medium text-black capitalize border-2 border-black rounded-full lg:font-bold md:text-md md:font-semibold md:py-2 md:px-4 lg:text-lg lg:py-2 lg:px-5 hover:bg-black/10 hover:duration-500">see
+                        more <i class="pl-1 text-xs text-black fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <section
+                class="grid justify-center grid-cols-1 mx-auto mt-4 mb-5 w-fit lg:grid-cols-4 md:grid-cols-2 justify-items-center lg:gap-y-30 gap-y-20 gap-x-14">
+
+                <!--    Product card 1 Start -->
+                <div class="duration-500 bg-white shadow-md w-72 rounded-xl hover:scale-105 hover:shadow-xl">
+                    <div>
+                        <img src="./assets/Items/itm-01.jpg" alt="Product"
+                            class="object-cover h-80 w-72 rounded-t-xl" />
+                        <div class="px-4 py-3 w-72">
+                            <span class="mr-3 text-xs text-green-400 uppercase">In Stock</span>
+                            <p class="block text-lg font-bold text-black capitalize truncate">Kleinder T-Shirt Navy Blue</p>
+                            <div class="flex items-center">
+                                <p class="my-3 text-lg font-semibold text-black cursor-auto">RS.2500.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--   Product card 1 - Ends Here  -->
+
+                <!--    Product card 2 Start -->
+                <div class="duration-500 bg-white shadow-md w-72 rounded-xl hover:scale-105 hover:shadow-xl">
+                        <img src="./assets/Items/itm-02.jpg" alt="Product"
+                            class="object-cover h-80 w-72 rounded-t-xl" />
+                        <div class="px-4 py-3 w-72">
+                            <span class="mr-3 text-xs text-green-400 uppercase">In Stock</span>
+                            <p class="block text-lg font-bold text-black capitalize truncate">Kleinder T-Shirt Black</p>
+                            <div class="flex items-center">
+                                <p class="my-3 text-lg font-semibold text-black cursor-auto">RS.2500.00</p>
+                            </div>
+                        </div>
+                </div>
+                <!--   Product card 2 Ends  -->
+
+                <!--    Product card 3 - Starts Here -->
+                <div class="duration-500 bg-white shadow-md w-72 rounded-xl hover:scale-105 hover:shadow-xl">
+                        <img src="./assets/Items/itm-03.jpg" alt="Product"
+                            class="object-cover h-80 w-72 rounded-t-xl" />
+                        <div class="px-4 py-3 w-72">
+                            <span class="mr-3 text-xs text-green-400 uppercase">In Stock</span>
+                            <p class="block text-lg font-bold text-black capitalize truncate">Kleinder T-Shirt White</p>
+                            <div class="flex items-center">
+                                <p class="my-3 text-lg font-semibold text-black cursor-auto">RS.2500.00</p>
+                            </div>
+                        </div>
+                </div>
+                <!--   Product card 3 end  -->
+
+                <!--    Product card 4 start -->
+                <div class="duration-500 bg-white shadow-md w-72 rounded-xl hover:scale-105 hover:shadow-xl">
+                        <img src="./assets/Items/itm-04.jpg" alt="Product"
+                            class="object-cover h-80 w-72 rounded-t-xl" />
+                        <div class="px-4 py-3 w-72">
+                            <span class="mr-3 text-xs text-green-400 uppercase">In Stock</span>
+                            <p class="block text-lg font-bold text-black capitalize truncate">Kleinder T-Shirt Pink
+                            </p>
+                            <div class="flex items-center">
+                                <p class="my-3 text-lg font-semibold text-black cursor-auto">RS.2500.00</p>
+                            </div>
+                        </div>
+                </div>
+                <!--   Product card 4 end  -->
+
+            </section>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <section class="mt-32 bg-[rgb(17,17,17)]">
+        <div class="max-w-5xl py-10 mx-auto">
+            <div class="grid items-center justify-center px-24 grid-row-2 md:grid-cols-2 md:grid">
+                <!-- about image -->
+                <div class="flex justify-center pb-6 md:pb-0 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0" data-taos-offset="400">
+                    <img src="https://cdn.discordapp.com/attachments/703935965630169218/1135658616041525258/about-b.png" class="h-[200px] md:h-[300px]" alt="">
+                </div>
+                <div class="text-center flex flex-col gap-10 w-[400px] delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="400">
+                    <div>
+                        <!-- about header text -->
+                        <div>
+                            <h1 class="text-2xl font-semibold text-white md:text-4xl">What Is Kleinder Clothing</h1>
+                        </div>
+                        <!-- about pragraph -->
+                        <div class="px-10 pt-4 md:pt-7 md:px-0">
+                            <p class="text-xs font-normal text-white md:text-sm line-clamp-5">Discover Kleinder in Sri Lanka, where style meets sustainability. Redefining comfort with chic and eco-friendly fashion. Join us now to embrace cozy elegance!.</p>
+                        </div>
+                    </div>
+                    <!-- about btn -->
+                    <div class="items-center transition duration-500 hover:-translate-y-1">
+                        <a href="https://shop.kleinderclothing.com/"><button 
+                            class="px-3 py-2 text-sm font-bold text-black bg-white rounded-full md:px-6 md:py-3 md:text-[16px] hover:bg-white/90 hover:duration-500">Shop
+                            now <i class="pl-1 text-sm text-black fa-solid fa-arrow-right"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section -->
+    <div class="w-full max-w-3xl mx-auto text-center my-44" x-data="slider">
+        <!-- Testimonial image -->
+        <div class="relative h-32">
+            <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 w-[480px] h-[480px] pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-red-500/25 before:via-red-500/5 before:via-25% before:to-red-500/0 before:to-75% before:rounded-full before:-z-10">
+                <div
+                    class="h-32 [mask-image:_linear-gradient(0deg,transparent,theme(colors.white)_20%,theme(colors.white))]">
+                    <template x-for="(testimonial, index) in testimonials" :key="index">
+                        <div x-show="active === index" class="absolute inset-0 -z-10"
+                            x-transition:enter="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700 order-first"
+                            x-transition:enter-start="opacity-0 -rotate-[60deg]"
+                            x-transition:enter-end="opacity-100 rotate-0"
+                            x-transition:leave="transition ease-[cubic-bezier(0.68,-0.3,0.32,1)] duration-700"
+                            x-transition:leave-start="opacity-100 rotate-0"
+                            x-transition:leave-end="opacity-0 rotate-[60deg]">
+                            <img class="relative top-11 left-1/2 -translate-x-1/2 rounded-full" :src="testimonial.img"
+                                width="56" height="56" :alt="testimonial.name">
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <!-- Text -->
+        <div class="mb-9">
+            <div class="relative flex flex-col transition-all duration-150 delay-300 ease-in-out" x-ref="testimonials">
+                <template x-for="(testimonial, index) in testimonials" :key="index">
+                    <div x-show="active === index"
+                        x-transition:enter="transition ease-in-out duration-500 delay-200 order-first"
+                        x-transition:enter-start="opacity-0 -translate-x-4"
+                        x-transition:enter-end="opacity-100 translate-x-0"
+                        x-transition:leave="transition ease-out duration-300 delay-300 absolute"
+                        x-transition:leave-start="opacity-100 translate-x-0"
+                        x-transition:leave-end="opacity-0 translate-x-4">
+                        <div class="text-lg font-bold text-slate-900 before:content-['\201C'] after:content-['\201D']"
+                            x-text="testimonial.quote"></div>
+                    </div>
+                </template>
+            </div>
+        </div>
+        <!-- Buttons -->
+        <div class="flex flex-wrap justify-center -m-1.5">
+            <template x-for="(testimonial, index) in testimonials" :key="index">
+                <button
+                    class="inline-flex justify-center whitespace-nowrap rounded-full px-3 py-1.5 m-1.5 text-xs shadow-sm focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150"
+                    :class="active === index ? 'bg-red-500 text-white shadow-indigo-950/10' : 'bg-white hover:bg-indigo-100 text-slate-900'"
+                    @click="active = index; stopAutorotate();">
+                    <span x-text="testimonial.name"></span> <span
+                        :class="active === index ? 'text-indigo-200' : 'text-slate-300'">-</span> <span
+                        x-text="testimonial.role"></span>
+                </button>
+            </template>
+        </div>
+    </div>
+
+    <!-- image section -->
+    <section class="flex justify-center mx-auto mt-32 ml-10 mr-10 ">
+        <div class="ft-back">
+            <div
+                class=" rounded-lg bg-cover bg-center bg-[url('./assets/back.jpg')] sm:h-[500px] h-[450px] lg:w-[1000px] md:w-[800px] sm:w-[500px] xl:w-[1200px] ">
+                <div class="flex justify-between px-6 pt-[350px] items-center gap-4">
+                    <div>
+                        <p class="font-[900] capitalize text-md text-yellow-50 sm:text-3xl lg:text-4xl">The ultimate
+                            <br> clothing
+                            to see <br> the world in.</p>
+                    </div>
+                    <!-- Btn -->
+                    <div class="transition duration-500 hover:-translate-y-1">
+                        <a href="https://shop.kleinderclothing.com/"
+                            class="px-2 py-2 text-xs font-bold text-black rounded-full bg-yellow-50 hover:bg-white/90 hover:duration-500 md:py-3 md:px-5 md:font-bold md:text-md ">Shop
+                            now <i class="pl-1 text-xs text-black fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <!-- bulk buy section -->
+    <section class="flex justify-center mt-32 bg-[rgb(34,34,34)]">
+        <div class="flex justify-center px-10 py-16 mx-auto md:gap-36 lg:gap-64 md:items-start md:flex-row max-w-7xl">
+            <div class="flex flex-col items-center justify-center gap-6 md:gap-8 delay-[300ms] duration-[600ms] taos:translate-x-[-200px] taos:opacity-0 md:pr-32">
+                <div class="pb-3">
+                    <h1 class="text-2xl font-bold text-white capitalize md:text-3xl">Contact Us For Bulk purchase</h1>
+                </div>
+                <div class="">
+                    <label for="message" class="block mb-2 text-sm font-semibold text-gray-100">Name</label>
+                    <input type="text" id="name"
+                        class="flex-1 block w-56 min-w-0 p-2 text-sm text-gray-600 border border-gray-300 rounded-md rounded-r-md md:w-72 bg-gray-50 focus:ring-red-500 focus:border-red-500 "
+                        placeholder="David">
+                </div>
+                <div class="">
+                    <label for="message" class="block mb-2 text-sm font-semibold text-gray-100">Quantity</label>
+                    <input type="number" id="msg-contact"
+                        class="flex-1 block w-56 min-w-0 p-2 text-sm text-gray-600 border border-gray-300 rounded-md rounded-r-md md:w-72 bg-gray-50 focus:ring-red-500 focus:border-red-500"
+                        placeholder="Minimum 10">
+                </div>
+                <div>
+                    <button id="button" type="submit" onclick="gotowhatsapp()"
+                        class="w-32 p-2 font-medium text-white bg-red-500 rounded-full shadow-xltext-md hover:bg-red-400">Submit</button>
+                </div>
+            </div>
+            <div class="hidden pb-6 md:block md:pb-0 delay-[300ms] duration-[600ms] taos:translate-x-[200px] taos:opacity-0" data-taos-offset="400">
+                <img src="./assets/Items/about-b.jpg" class="h-[300px] md:h-[300px]" alt="">
+            </div>
+        </div>
+    </section>
+      
+    <!-- footer section -->
+    <footer class="bg-[#111111] w-full ">
+        <div class="flex flex-col justify-center pt-10 mx-auto max-w-7xl">
+            <div class="grid gap-10 grid-row-4 ml-28 mr-28 md:grid-cols-3 md:grid">
+                <!--flex 1 start -->
+                <div class="flex flex-col gap-6">
+                    <!-- Footer Logo -->
+                    <div class="flex">
+                        <img class="h-6" src="./assets/white_logo_recover_1.png" alt="">
+                        <p class="items-center text-2xl font-bold text-white">Kleinder<span
+                                class="text-red-500">.</span></p>
+                    </div>
+                    <!-- Text -->
+                    <div class="">
+                        <p class="text-sm font-normal text-gray-100/50">Kleinder: Embrace cozy, sustainable fashion<br> in Panadura. Redefining comfort Voluptates, <br>with stylish clothing.</p>
+                    </div>
+                    <!-- Payment Logos -->
+                    <div class="flex gap-4 cursor-pointer">
+                        <a href="https://web.facebook.com/kleinderclothing" target="_blank"><i class="text-white text-xl duration-300 fa-brands fa-facebook hover:text-[#3b5998]"></i></a>
+                        <a href="https://www.instagram.com/kleinderclothing/" target="_blank"><i class="text-xl text-white duration-300 fa-brands fa-instagram hover:bg-gradient-to-br hover:to-[#fccc63] hover:from-[#516cf1] hover:via-[#b561ee] hover:bg-clip-text hover:text-transparent"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=%2B94702009226&data=ARCTnq505oLaht_MHOPIIMmryu_wmTlJw2ZbH0-fskdvAoIbI2Sg42zudX_U7rsd9nOXK6XOZjJX21V4Calzd-sUg61f4GPN2mTinis3Z5E2l9YrrxjvJKevwp75hvXeTsJU74u0FuPSOdtCYHEq_vCkhg&source=FB_Page&app=facebook&entry_point=page_cta"><i class="text-xl text-white duration-300 fa-brands fa-whatsapp hover:text-green-500"></i></a>
+                        <a href="https://www.tiktok.com/@kleinderclothing?is_from_webapp=1&sender_device=pc" target="_blank"><i class="text-[18px] text-white duration-300 fa-brands fa-tiktok hover:bg-gradient-to-br hover:to-[#00f2ea] hover:from-[#ff0050] hover:via-[#414141] hover:bg-clip-text hover:text-transparent"></i></a>
+                    </div>
+                </div>
+                <!--flex 2 start -->
+                <div class="flex flex-col gap-4">
+                    <div>
+                        <p class="text-lg font-semibold text-white">Quick Links</p>
+                    </div>
+                    <div class="flex flex-col gap-2 ">
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/">New Collection</a>
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/?product_cat=t-shirts">T-shirts</a>
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/?page_id=1177">My Account</a>
+                        <a class="text-sm font-medium text-gray-100/50 hover:text-gray-100/80 hover:duration-300"
+                            href="https://shop.kleinderclothing.com/?post_type=product">Orders</a>
+                    </div>
+                </div>
+                <!-- flex 4 start -->
+                <div class="pt-6">
+                    <div>
+                        <p class="text-2xl font-bold capitalize text-white/50">Elevate your style. Join<br> the fashion<span
+                                class="text-red-500"> revolution</span></p>
+                    </div>
+                    <div class="items-center pt-6">
+                        <a href="./contact.html"
+                            class="p-2 text-sm font-medium capitalize border rounded-full border-white/60 text-white/50 hover:bg-white/5 hover:duration-500">Contact
+                            Us <i class="pl-1 text-xs text-white/50 fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright text -->
+            <div class="flex justify-center pt-10">
+                <div class=" border-t-[1px] border-slate-100/20 w-2/3">
+                    <p class="pt-4 pb-4 text-sm font-normal text-center text-white/60">Copyright © Kleinder clothing.
+                        Developed by Enforcers Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e) {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[16%]')
+        }
+    </script>
+    <!--Custom Javascript Added By SaM-->
+    <script src="./js/home.js"></script>
+    <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('slider', () => ({
+                active: 0,
+                autorotate: true,
+                autorotateTiming: 5000,
+                testimonials: [
+                    {
+                        img: './assets/Client/Client_Danuka Theekshana Bandara.jpg',
+                        quote: "Great quality Clothes ❤️Highly recommend 😍🔥Good product keep up the good work guys😍",
+                        name: 'Danuka Theekshana Bandara',
+                    },
+                    {
+                        img: './assets/Client/client_Mohomad Mujeeb.jpg',
+                        quote: "I'm very Happy😍 on your KLEINDER white t-shirt purchase!🔥With its elegant design and premium quality, you're not just getting a piece of clothing, you're embracing a lifestyle of sophistication and charm🕊️. The soft fabric and flattering fit will make you feel confident and comfortable, while the subtle details will elevate your style to new heights! ❤️ Highly recommend 👍",
+                        name: 'Mohomad Mujeeb',
+                    },
+                    {
+                        img: './assets/Client/client_Kavindya Hansani.jpg',
+                        quote: "WOW Best Quality tshirts...😍 Friendly coustermer service.. Thank you...♥️♥️ Hope to buy more Tshirts.. 🫶🏻 This is a good product and very good service...Highly recommended kleinder Clothing...🔥",
+                        name: 'Kavindya Hansani',
+                    },
+                    {
+                        img: './assets/Client/Client_Rashmi Shawindi.jpg',
+                        quote: "High quality material👕, Good quality still looking after 10 times washes😍. Highly recommend for everyone🫶.",
+                        name: 'Rashmi Shawindi',
+                    },
+                    {
+                        img: './assets/Client/client_Teshith Rathnayaka.jpg',
+                        quote: "I just got my first order and I have one word WOW!!!🔥💗",
+                        name: 'Teshith Rathnayaka',
+                    },
+                ],
+                init() {
+                    if (this.autorotate) {
+                        this.autorotateInterval = setInterval(() => {
+                            this.active = this.active + 1 === this.testimonials.length ? 0 : this.active + 1
+                        }, this.autorotateTiming)
+                    }
+                    this.$watch('active', callback => this.heightFix())
+                },
+                stopAutorotate() {
+                    clearInterval(this.autorotateInterval)
+                    this.autorotateInterval = null
+                },
+                heightFix() {
+                    this.$nextTick(() => {
+                        this.$refs.testimonials.style.height = this.$refs.testimonials.children[this.active + 1].offsetHeight + 'px'
+                    })
+                }
+            }))
+        })
+    </script>
+        <script>
+            function gotowhatsapp() {
+                var name = document.getElementById("name").value;
+                var msg = document.getElementById("msg-contact").value;
+        
+                var url = "https://wa.me/+94779982623?text="
+                    + "Bulk Purchase" + "%0a"
+                    + "Name: " + name + "%0a"
+                    + "Quantity: " + msg;
+        
+                window.open(url, '_blank').focus();
+            }
+        </script>
+</body>
+
+</html>
+</body>
+
+</html>
