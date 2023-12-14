@@ -1,5 +1,11 @@
 # Kiender Clothing Website
 
+<br>
+
+<center><img src="./assets/Logo/white-logo.png" alt="logo" width="100"/></center>
+
+<br>
+
 Welcome to the official website of klienderclothing.com!
 
 ## About the Project
